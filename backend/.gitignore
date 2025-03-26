@@ -1,0 +1,85 @@
+# 仮想環境ディレクトリ
+.venv/
+venv/
+env/
+ENV/
+
+# ビルドやパッケージング関連のファイル
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+*.manifest
+*.spec
+
+# ログファイル
+pip-log.txt
+pip-delete-this-directory.txt
+*.log
+
+# テストやカバレッジレポート関連のファイル
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# 翻訳関連のファイル
+*.mo
+*.pot
+
+# IDEやエディタ関連のファイル
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/dictionaries
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.xml
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/gradle.xml
+.idea/**/libraries
+*.iws
+out/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history
+
+# 環境変数ファイル
+.env
+
+# その他の不要なファイル
+sftp-config.json
+Package Control.last-run
+Package Control.ca-list
+Package Control.ca-bundle
+Package Control.system-ca-bundle
+GitHub.sublime-settings
+
+# ローカルファイル
+.DS_Store
